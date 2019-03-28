@@ -14,7 +14,7 @@ Incentives Platform
 
         $ composer install
     
-+ Modificamos el nombre del archivo __.env.example.__ por __.env__ y agregamos nuestras credenciales.
++ Modificamos el nombre del archivo __.env.example.__ por __.env__ y agregamos nuestras credenciales de base de datos.
 
 + Ejecutamos las migraciones.
 

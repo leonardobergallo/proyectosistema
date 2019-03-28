@@ -17,3 +17,7 @@ Route::get('/', function () {
 
 Route::resource('almacen/categoria','CategoriaController');
 Route::resource('almacen/articulo','ArticuloController');
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
